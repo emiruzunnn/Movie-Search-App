@@ -1,0 +1,103 @@
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  #searchContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #searchInput {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  #searchButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #results div {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #results h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  #results p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  #results img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  #detailContainer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #detailTitle {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  #detailPlot {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #detailPoster {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
